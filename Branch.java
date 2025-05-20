@@ -9,6 +9,11 @@ public class Branch<T> {
         this.left = null;
         this.right = null;
     }
+    public Branch(T data, Branch<T> left, Branch<T> right) {
+        this.data = data;
+        this.left = left;
+        this.right = right;
+    }
     public T getData() {
         return data;
     }
