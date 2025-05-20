@@ -4,6 +4,11 @@ public class AVL<T extends Comparable<T>> {
 
     public AVL() {
         this.root = null;
+        this.father = null;
+    }
+    public AVL(Branch<T> root) {
+        this.root = root;
+        this.father = root;
     }
     public void insert(T data) {
     
