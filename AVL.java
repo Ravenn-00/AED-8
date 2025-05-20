@@ -8,6 +8,12 @@ public class AVL<T extends Comparable<T>> {
     public void insert(T data) {
     
     }
+    public int balanceLeft(Branch<T> y) {
+        return 0;
+    }
+    public int balanceRight(Branch<T> y) {
+        return 0;
+    }
     public void rotateRight(Branch<T> y) {
         
     }
